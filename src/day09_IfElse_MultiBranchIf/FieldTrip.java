@@ -30,7 +30,7 @@ public class FieldTrip {
                 location = "Museum";
                 groupNumber = 5;
                 teacher = "Ms. Lela";
-            }else if(grade ==3){
+            }else {
                 location = "Six Flags";
                 groupNumber = 8;
                 teacher = "Mr. Watt";
