@@ -19,8 +19,8 @@ public class SalaryCalculator {
         }
 
 
-        if (isMarried){
-            taxRate -= 0.05;
+        if (isMarried){ // if the person is married
+            taxRate -= 0.05; // subtracting 5% from the original tax rate
         }
 
         double salaryAfterTax = salary - (salary*taxRate);
