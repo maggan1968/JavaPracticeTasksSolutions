@@ -8,7 +8,7 @@ public class CrewAndPassengers {
 
         boolean validNumber =  number == 50 || number == 75 || number ==100;
 
-        if(validNumber){
+        if(validNumber){ // number: 50, 75, 100
 
             if(number == 50){
                 result = "20 crew, 30 passengers";
@@ -29,7 +29,7 @@ public class CrewAndPassengers {
 
 }
 /*
-2. Create a class called CrewAndPassanger, Given a number of people on the ship (int number), determine how many need to be crew members and how many can be passengers. Print how many of each type there should be.
+2. Create a class called CrewAndPassengers, Given a number of people on the ship (int number), determine how many need to be crew members and how many can be passengers. Print how many of each type there should be.
 
             Total: 50  ====> 20 crew, 30 passengers
             Total: 75  ====> 25 crew, 50 passengers
