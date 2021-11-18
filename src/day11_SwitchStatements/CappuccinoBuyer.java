@@ -20,7 +20,6 @@ public class CappuccinoBuyer {
                 break;
 
             case "venti":
-                System.out.println("Venti cappuccino please");
                 price = 4.29;
                 calories = 150;
                 break;
@@ -58,9 +57,5 @@ public class CappuccinoBuyer {
 			If the size is invalid then the output should be "Invalid Size"
 
 
-			Note:
-			 	Solution 1: use if statement
-				Solution 2: use switch statement
-				Solution 2: use if & switch statements mixed
 
  */
