@@ -8,7 +8,7 @@ public class CappuccinoBuyer {
         double price = 0.0;
         int calories = 0;
 
-        switch(size) {
+        switch (size) {
             case "tall":
                 price = 3.69;
                 calories = 90;
@@ -26,14 +26,14 @@ public class CappuccinoBuyer {
                 break;
 
             default:
-                System.err.println("Invalid Size: "+size);
+                System.err.println("Invalid Size: " + size);
         }
 
-        if(price != 0) {
+
+        if (price != 0) {
             System.out.println("Price is: $" + price);
-            System.out.println(calories+" calories");
+            System.out.println(calories + " calories");
         }
-
 
 
     }
