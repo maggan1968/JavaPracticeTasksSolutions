@@ -6,7 +6,7 @@ public class Elevator {
         int floorNum = 1;
 
         // Solution 1:
-        if (floorNum > 10) {
+        if (floorNum == 10) {
             System.out.println("Floor 1 selected. Companies: Lobby, Verizon, Starbucks");
         } else if (floorNum == 2) {
             System.out.println("Floor 2 selected. Companies: Cybertek, NASA, Intelsat");
