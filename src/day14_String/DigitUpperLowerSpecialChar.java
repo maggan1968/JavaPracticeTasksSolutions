@@ -16,9 +16,9 @@ public class DigitUpperLowerSpecialChar {
         char firstChar = word.charAt(0);
         String result = "";
 
-        if(firstChar >= '0' && firstChar<= '9'){
+        if(firstChar >= '0' && firstChar <= '9'){
             result = "first character is digit";
-        }else if(firstChar >= 'a' && firstChar<= 'z'){
+        }else if(firstChar >= 'a' && firstChar <= 'z'){
             result = "first character is lowercase letter";
         }else if(firstChar >= 'A' && firstChar<= 'Z'){
             result = "first character is uppercase letter";
