@@ -16,6 +16,7 @@ public class FactorialNumber {
 
         System.out.println("result = " + result);
 
+        scan.close();
     }
 }
 /*
