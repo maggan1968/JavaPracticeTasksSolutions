@@ -20,13 +20,13 @@ public class CheckWords {
 
         String result = "";
 
-        if ( word1.equals(word2) && word2.equals(word3) ){
+        if ( word1.length() == word2.length() && word2.length() ==word3.length() ){
             result = "All words are same length";
-        }else if(word1.equals(word2)){
+        }else if(word1.length() == word2.length()){
            result =  "Not Same nor Different lengths";
-        }else if(word1.equals(word3)){
+        }else if(word1.length() == word3.length() ){
             result =  "Not Same nor Different lengths";
-        }else if(word2.equals(word3)) {
+        }else if(word2.length() == word3.length()) {
             result =  "Not Same nor Different lengths";
         } else {
             result = "All different length";
