@@ -37,6 +37,8 @@ public class RoomReservation {
                 break;
             }
 
+            scan.close();
+
         }
     }
 

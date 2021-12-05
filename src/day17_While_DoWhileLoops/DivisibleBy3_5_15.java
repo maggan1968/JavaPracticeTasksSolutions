@@ -33,7 +33,9 @@ public class DivisibleBy3_5_15 {
         System.out.println("Divisible By 15: " + divisibleBy15);
         System.out.println("Divisible By 5: " + divisibleBy5);
         System.out.println("Divisible By 3: " + divisibleBy3);
-        
+
+        scan.close();
+
 
     }
 

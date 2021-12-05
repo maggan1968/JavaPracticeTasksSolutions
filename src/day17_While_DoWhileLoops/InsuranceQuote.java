@@ -126,9 +126,16 @@ public class InsuranceQuote {
 
         double totalPrice = price * ( 1 - discountRate);
 
+        System.out.println("Name = " + name);
+        System.out.println("Gender = " + gender);
+        System.out.println("Age = " + age);
+        System.out.println("Married = " + married);
+        System.out.println("Has Anti-Theft Device = " + hasAntiTheftDevice);
+        System.out.println("Had Accident Or Claims = " + hadAccidentOrClaims);
+        System.out.println("InsuranceType = " + insuranceType);
         System.out.println("Your insurance price is: "+totalPrice);
 
-
+        scan.close();
 
     }
 
