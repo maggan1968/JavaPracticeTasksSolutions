@@ -22,3 +22,14 @@ public class Classmates_Reverse {
     }
 
 }
+/*
+2. create string array, and store the names of your  class mates (10)
+            reverse each students names and print them in separate lines
+            	ex:
+            		arr = {java, python, c#}
+
+        		output:
+        			avaJ
+        			nohtyp
+        			#c
+ */
