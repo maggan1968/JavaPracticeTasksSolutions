@@ -1,4 +1,4 @@
-package day20_LoopsAndString;
+package day19_LoopsAndString;
 
 public class HighestFrequency {
 
