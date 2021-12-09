@@ -36,10 +36,9 @@ public class RoomReservationTask2 {
                 break;
             }
 
-            scan.close();
-
         }
 
+        scan.close();
 
     }
 }
