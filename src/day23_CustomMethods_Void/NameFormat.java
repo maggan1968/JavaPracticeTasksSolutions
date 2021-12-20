@@ -1,4 +1,4 @@
-package day23_customMethods_Void;
+package day23_CustomMethods_Void;
 
 public class NameFormat {
 
