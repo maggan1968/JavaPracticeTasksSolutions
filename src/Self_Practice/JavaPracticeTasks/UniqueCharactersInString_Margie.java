@@ -11,23 +11,23 @@ public class UniqueCharactersInString_Margie {
         System.out.println("Enter word");
         String word = scan.nextLine();
 
-        String str ="aabccdeef";
-        String result = "";//bdf
+        String str ="AAABBBCCCDEF";
+        String result = "";//DEF
 
         //First of all we have to find frequency of each character.to do that we have to compare with
         //this chart with every single characters of the String.First, second, third ,....character
-        //    String str ="aabccdeef"
-        //     String result = "";//bdf
+        //    String str ="AAABBBCCCDEF"
+        //     String result = "";//DEF
         //Iam also going to need a variable, that can help me to count how many times this character is matching
-        //        char ch = 'a';
+        //        char ch = 'A';
         //        int count = 0;
         //with the characters of the String, and for that purpose, I created this variable count so this variable
         // char contains the character and count it contains the frequency of that character from the string for those
         // two purpose. I created those two variables. And why I created this loop here?
         //        for (int i = 0; i < str.length(); i++)
         //ok, so For what purpose created this loop?
-        //The reason we created this loop is because in order to find the frequency of this character => 'a'
-        // I need to compare it with every single one => "aabccdeef" of those characters that I have in the String
+        //The reason we created this loop is because in order to find the frequency of this character => 'A'
+        // I need to compare it with every single one => "AAABBBCCCDEF" of those characters that I have in the String
         // And charAt method.  It can get me every single characters.
         //in order to get nine characters is instead of calling this charAt method nine times
         // I can just create a loop  => for (int i = 0; i < str.length(); i++)
@@ -44,11 +44,11 @@ public class UniqueCharactersInString_Margie {
 
         //Because we know that we have to repeated then we have to place them inside the loop
         // so this time let me declare the loop that's going to be the outer loop ==> for(int j = 0; j < str.length(); j++) {
-// to be able to pick the characters ==> "aabccdeef" so that I can so that the innoval later on it can return me frequency
+// to be able to pick the characters ==> "AAABBBCCCDEF" so that I can so that the innoval later on it can return me frequency
 
         //In order for this loop to be able to pick the characters, I want this loop to have access to all the next numbers
         //starting from index 0 to the last
-        //These are the statements that I wanted to repeat it for every single characters not only for character "a'.
+        //These are the statements that I wanted to repeat it for every single characters not only for character "A'.
 
 
         //  for (int j = 0; j < str.length(); j++) {
@@ -60,7 +60,7 @@ public class UniqueCharactersInString_Margie {
         //            if (ch == each){
         //                count++;
 
-//I wanted to repeat those statements for character 'a' only? or I want to repeat it for every single
+//I wanted to repeat those statements for character 'A' only? or I want to repeat it for every single
 // character of the String
  //So I want this other loop to be able to pick the character during the each execution of the loop
 // by using the variable J, I will get each of the characters
@@ -84,7 +84,7 @@ public class UniqueCharactersInString_Margie {
 
 
 /*this way you will find the one character
-        char ch = 'a';
+        char ch = 'A';
         int count = 0;// represents the frequency of the ch
         for (int i = 0; i < str.length(); i++) {
             char each = str.charAt(i);// each character of str
